@@ -1,0 +1,86 @@
+.ncontain {
+    background-color: #ffcccc;
+    width: 100%;
+}
+
+.navbar {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+    margin: 0;
+}
+
+.navbar-menu {
+    padding: 5px 45px 5px 45px;
+    text-decoration: none;
+}
+
+.jumbotron {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.textw {
+    background-color: #ccccff;
+    height: 400px;
+    text-align: center;
+}
+
+.button {
+  margin-top: 15px;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: grey;
+  color: white;
+ }
+
+ .floatr {
+     float: right;
+ }
+
+ .floatl {
+     float: left;
+ }
