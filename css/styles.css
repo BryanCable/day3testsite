@@ -67,3 +67,20 @@
   opacity: 1;
   right: 0;
 }
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: grey;
+  color: white;
+ }
+
+ .footerpr {
+     float: right;
+ }
+
+ .footerpl {
+     float: left;
+ }
