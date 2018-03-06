@@ -1,0 +1,36 @@
+.container {
+    background-color: #ffcccc;
+    width: 100%;
+}
+
+.navbar {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.navbar-menu {
+    margin: 5px;
+}
+
+.jumbotron {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.well {
+    background-color: #ccccff;
+    height: 400px;
+    text-align: center;
+}
+
+.paragraph {
+    padding-left: 20px;
+    padding-right: 15px;
+}
+
+.button {
+    margin-top: 15px;
+}
