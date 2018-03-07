@@ -29,6 +29,10 @@
     text-align: center;
 }
 
+.footer {
+    height: 78px;
+}
+
 .copyright {
     padding-top: 10px;
 }
