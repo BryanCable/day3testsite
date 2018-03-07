@@ -1,6 +1,7 @@
 .ncontain {
     background-color: #ffcccc;
     width: 100%;
+    font-size: 20px;
 }
 
 .navbar {
@@ -23,7 +24,7 @@
 }
 
 .textw {
-    background-color: #ccccff;
+    background: #ccccff;
     height: 400px;
     text-align: center;
 }
@@ -68,19 +69,31 @@
   right: 0;
 }
 
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: grey;
-  color: white;
- }
+.copyright {
+    padding-top: 10px;
+}
 
- .floatr {
-     float: right;
- }
+.email {
+    padding-top: 10px;
+}
 
- .floatl {
-     float: left;
- }
+@media screen and (max-width: 991px) {
+    h2 {
+        margin-top: 0;
+    }
+    .textw {
+        border-bottom: 2px solid rgba(114, 110, 110, 0.288);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .textw {
+        border-right: 2px solid rgba(114, 110, 110, 0.288);
+    }
+}
+
+@media screen and (max-width: 459px) {
+    .navbar-menu {
+        padding: 5px 20px 5px 20px;
+    }
+}
